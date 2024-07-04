@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext", "DOM"],
+        "target": "ES6",
+        "checkJs": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true
+    },
+    "files": ["./src/index.d.ts"],
+    "include": ["src"]
+}

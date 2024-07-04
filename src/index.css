@@ -1,0 +1,107 @@
+html,
+body {
+    font-family: "Helvetica";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: darkgreen;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Header */
+
+header {
+    background-color: forestgreen;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+
+header a {
+    display: block;
+    color: white;
+    padding: 16px 1%;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+}
+header .right {
+    right: 2%;
+    color: black;
+    position: absolute;
+}
+
+header .button {
+    cursor: pointer;
+    align-items: center;
+    border-radius: 25%;
+}
+
+header .button:hover {
+    color: black;
+    background-color: white;
+}
+
+header .title {
+    color: black;
+    padding-right: 2%;
+    font-size: 24px;
+}
+
+/* P5 css */
+#p5Button {
+    background-color: forestgreen;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+}
+#p5Button:hover {
+    background-color: white;
+    color: black;
+}
+
+#p5GoText {
+    background-color: forestgreen;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+#p5ScoreText {
+    background-color: forestgreen;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    width: fit-content;
+}
+
+div#info {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+div#sketch {
+    width: 75%;
+    height: 75%;
+}
+
+div#drawable {
+    align-content: center;
+}
+
+#defaultCanvas0 {
+    width: inherit;
+    height: inherit;
+}
