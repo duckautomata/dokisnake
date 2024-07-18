@@ -9,5 +9,7 @@ export default defineConfig(() => ({
     build: {
         emptyOutDir: true,
         manifest: false,
+        target: "esnext",
+        outDir: "dokisnake", // should be the same as base
     },
 }));

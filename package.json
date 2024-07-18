@@ -1,9 +1,7 @@
 {
     "name": "dokisnake",
+    "private": true,
     "version": "1.0.0",
-    "description": "Snake game but you are Doki and DAD catching chicken",
-    "author": "DuckAutomata",
-    "license": "ISC",
     "type": "module",
     "engines": {
         "node": ">=20"
@@ -12,7 +10,7 @@
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "format": "prettier --write '{,!({node_modules,dist})/**/}*.{js,ts,json,html,css,prettierrc,md}'"
+        "format": "prettier --write '{,!({node_modules,dist})/**/}*.{js,ts,jsx,tsx,json,html,css,prettierrc,md}"
     },
     "dependencies": {
         "cookiejs": "^2.1.3",

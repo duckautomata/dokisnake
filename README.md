@@ -17,16 +17,6 @@ Snake game but you are Doki and DAD catching chicken
 
 Every time you save, Vite will automatically refresh the cache and the site should refresh with the new changes.
 
-## Contributing
-
-Contributions are more than appreciated here.
-If you want to contribute, go through the following steps to get your code changes merged.
-
-1. Ensure that your code changes do not break anything.
-2. Run `npm run format` to format your code.
-3. Commit the code changes to a new branch, push said branch, and open a PR.
-4. Once the PR is merged. I'll build a new release and place it on the GitHub Pages site.
-
 ## Building a new release
 
 This repo holds the dev code. The release code is stored on the `duckautomata.github.io` repo.
