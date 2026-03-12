@@ -4,9 +4,9 @@ Snake game but you are Doki and DAD catching chicken
 
 ## Tech Used
 
--   Node 22
--   Vite to run locally
--   p5.js for drawing the canvas
+- Node 22
+- Vite to run locally
+- p5.js for drawing the canvas
 
 ## Running Locally
 
@@ -19,14 +19,8 @@ Every time you save, Vite will automatically refresh the cache and the site shou
 
 ## Building a new release
 
-This repo holds the dev code. The release code is stored on the `duckautomata.github.io` repo.
-I do it this way to ensure that I only have one GitHub Pages repo. And it makes it easier to integrate all apps and make it look consistent.
+This project is hosted in a Cloudflare worker. If you have access to the worker, then run the deploy command to update the contents.
 
-### Release Process
-
-Once a new version of the app is ready to go.
-
-1. Run `npm run build`
-2. Copy the contents of `/dist` and paste them into this repos folder over in the `duckautomata.github.io` repo.
-3. Push changes to a new branch and open a PR.
-4. Once PR is merged. Changes should be released.
+```bash
+npm run deploy
+```

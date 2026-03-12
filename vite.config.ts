@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig(() => ({
-    base: "/dokisnake",
+    base: "/dokisnake/",
     server: {
         port: 5173,
         open: false,
@@ -10,6 +10,6 @@ export default defineConfig(() => ({
         emptyOutDir: true,
         manifest: false,
         target: "esnext",
-        outDir: "dokisnake", // should be the same as base
+        outDir: "dist/dokisnake", // should be the same as base
     },
 }));
